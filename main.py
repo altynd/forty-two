@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import render_template
 
-# test from mac
+# test from mac2
 
 
 app = Flask(__name__)
