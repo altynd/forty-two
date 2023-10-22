@@ -12,6 +12,10 @@ app.app_context().push()  # for fast updates
 def index():
     return render_template("index.html")
 
+@app.route("/refresh")
+def refresh():
+    return render_template("index.html")
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=80)  # automatic starting app
