@@ -5,6 +5,7 @@ from flask import render_template
 app = Flask(__name__)
 app.app_context().push()  # for fast updates
 
+print("test git")
 
 @app.route("/")
 def index():
